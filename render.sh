@@ -4,8 +4,8 @@
 # Script for converting markdown formatted ASCII files to pdf using pandoc.
 # Written in 2014 by Jonas Sjöberg for PRIVATE USE.
 
-INPUT="lab-01.md"
-OUTPUT="lab-01.pdf"
+INPUT="lab-02.md"
+OUTPUT="lab-02.pdf"
 TEMPLATE="./labb.latex"
 
 echo "running pandoc .."
