@@ -41,31 +41,42 @@
   \newcommand{\euro}{€}
 \fi
 
-\title{Lab 005: the Operational Amplifier}
+
+% ==============================================================================
+% DOCUMENT METADATA 
+% ==============================================================================
+
+\title{EE413 \\ Lab 005 \\ the Operational Amplifier}
 \author{{Jonas Sjöberg} \and {Esther Hedlund}}
+
 \date{}
 
 \begin{document}
+
 \maketitle
 
-%Jonas Sjöberg\
-%(Högskolan i Gävle)\\
-%Esther Hedlund\
-%(Högskolan i Gävle)\\
+\begin{center}
+\begin{tabular}{l r}
+Data Performed: & 26 November 2014 \\
+Instructor: TODO
+\end{tabular}
+\end{center}
 
 
+% ==============================================================================
+% ABSTRACT
+% ==============================================================================
 \begin{abstract}
 "This lab is meant to teach and show the practical use of NPN bjt amplifiers.
 The lab includes constructing and measuring DC circuits, calculating biasing networks,
 amplification, bandwidth and plotting characteristic curves of circuit parameters."
 \end{abstract}
 
-{
-\hypersetup{linkcolor=black}
-\setcounter{tocdepth}{3}
-\tableofcontents
-}
-
+%{
+%\hypersetup{linkcolor=black}
+%\setcounter{tocdepth}{3}
+%\tableofcontents
+%}
 
 \newpage
 
