@@ -1,17 +1,3 @@
----
-title: Lab 005 - the Operational Amplifier
-author:
-- name: Jonas Sjöberg
-  affiliation: Högskolan i Gävle, Elektronikingenjörsprogrammet
-  email: tel12jsg@student.hig.se
-- name: Esther Hedlund
-  affiliation: Högskolan i Gävle, Elektronikingenjörsprogrammet
-  email: tfk13ehd@student.hig.se
-date: 27 November 2014
-abstract: lab report for lab 005 - the operational amplifier
-bibliography: <!-- \bibliography{/Users/kjhealy/Documents/bibs/socbib-pandoc.bib} This is a hack for Emacs users so that RefTeX knows where your bibfile is, and you can use RefTeX citation completion in your .md files. -->
-...
-
 \newpage
 
 Inverting DC Amplifier
@@ -24,16 +10,30 @@ Theory
 
 Gain, Av, can be expressed as a ratio of the feedback impedance to the input
 impedance. A fraction of the output is fed back, causing the op amp to
-compensate and in effect amplify. Av = R2/R1
+compensate and in effect amplify.
+\begin{equation}
+A_v = \frac{R_2}{R_1}
+\end{equation}
 
 The circuit gain for ideal components is therefore;
 
-For R2 = 100kΩ
-R2/R1 = 100k/10k = 10x or 20dB
+For $R_2 = 100k\Omega$:
 
-For R2 = 10kΩ
-R2/R1 = 10k/10k = 1 or unity gain.
+\begin{align} 
+A_v     &= \frac{R_2}{R_1}\\
+        &= \frac{100k\Omega}{10k\Omega}\\
+        &= (a^3+2a^2b+ab^2) + (a^2b+2ab^2+b^3)\\
+        &= a^3+3a^2b+3ab^2+b^3
+\end{align}
 
+
+
+\begin{align} 
+(a+b)^3 &= (a+b)^2(a+b)\\
+        &= (a^2+2ab+b^2)(a+b)\\
+        &= (a^3+2a^2b+ab^2) + (a^2b+2ab^2+b^3)\\
+        &= a^3+3a^2b+3ab^2+b^3
+\end{align}
 
 Measurements
 ------------

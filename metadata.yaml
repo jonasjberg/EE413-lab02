@@ -1,4 +1,3 @@
-
 ---
 title: 'Lab 005: the Operational Amplifier'
 author:
@@ -10,6 +9,6 @@ author:
   email: tfk13ehd@student.hig.se
 tags: [operational amplifier, analog circuit, experimentation]
 abstract: |
-This lab is meant to show the practical use of the operational amplifier in
-analog circuit design. Several common circuit configurations will be discussed."
+    This lab is meant to show the practical use of the operational amplifier in
+    analog circuit design. Several common circuit configurations will be discussed.
 ...

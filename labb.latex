@@ -164,11 +164,11 @@ $endif$
 $endfor$
 
 
-\begin{abstract}
-"This lab is meant to teach and show the practical use of NPN bjt amplifiers.
-The lab includes constructing and measuring DC circuits, calculating biasing networks,
-amplification, bandwidth and plotting characteristic curves of circuit parameters."
-\end{abstract}
+%\begin{abstract}
+%"This lab is meant to teach and show the practical use of NPN bjt amplifiers.
+%The lab includes constructing and measuring DC circuits, calculating biasing networks,
+%amplification, bandwidth and plotting characteristic curves of circuit parameters."
+%\end{abstract}
 
 $for(include-before)$
 $include-before$
