@@ -34,7 +34,7 @@ A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
 \end{align}
 
 
-In both cases, the signal phase is inverted 180 degrees.
+In both cases, the signal phase is inverted $180^\circ$.
 
 
 Measurements
