@@ -1,11 +1,15 @@
+
 ---
-title: 'Lab 005 - the Operational Amplifier'
+title: 'Lab 005: the Operational Amplifier'
 author:
-- name: Jonas Sjöberg
-  affiliation: tel12jsg@student.hig.se
+- name: Jonas Sjöberg 
+  affiliation: Högskolan i Gävle
   email: tel12jsg@student.hig.se
 - name: Esther Hedlund
-  affiliation: tfk13ehd@student.hig.se
+  affiliation: Högskolan i Gävle
   email: tfk13ehd@student.hig.se
-abstract: "This lab is meant to show the practical use of the operational amplifier in analog circuit design."
+tags: [operational amplifier, analog circuit, experimentation]
+abstract: |
+This lab is meant to show the practical use of the operational amplifier in
+analog circuit design. Several common circuit configurations will be discussed."
 ...
