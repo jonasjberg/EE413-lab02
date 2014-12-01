@@ -20,20 +20,22 @@ The circuit gain for ideal components is therefore;
 For $R_2 = 100k\Omega$:
 
 \begin{align} 
-A_v     &= \frac{R_2}{R_1}\\
-        &= \frac{100k\Omega}{10k\Omega}\\
-        &= (a^3+2a^2b+ab^2) + (a^2b+2ab^2+b^3)\\
-        &= a^3+3a^2b+3ab^2+b^3
+A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
+        &= \frac{100k\Omega}{10k\Omega} = 10\\
+        &= 20 \times \log{\frac{10}{1}} = 20dB  
 \end{align}
 
-
+For $R_2 = 10k\Omega$:
 
 \begin{align} 
-(a+b)^3 &= (a+b)^2(a+b)\\
-        &= (a^2+2ab+b^2)(a+b)\\
-        &= (a^3+2a^2b+ab^2) + (a^2b+2ab^2+b^3)\\
-        &= a^3+3a^2b+3ab^2+b^3
+A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
+        &= \frac{10k\Omega}{10k\Omega} = 10\\
+        &= 20 \times \log{\frac{1}{1}} = 0dB  
 \end{align}
+
+
+In both cases, the signal phase is inverted 180 degrees.
+
 
 Measurements
 ------------
