@@ -71,7 +71,7 @@ analog circuit design. Several common circuit configurations will be discussed."
 
 \begin{figure}[htbp]
     \centering
-        \includegraphics{img/invDCamp.png}
+        \includegraphics[scale=0.5]{img/invDCamp.png}
     \caption{Inverting DC amplifier}
     \label{fig:invDCamp}
 \end{figure}
@@ -105,32 +105,42 @@ A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
 
 In both cases, the signal phase is inverted $180^\circ$.
 
-\subsection{Measurements}\label{measurements}
-\begin{table}[h]
-  \centering
-  \begin{tabular}{@{}lllll@{}}
-    \toprule
-    Uin (V) & Uout (V) & Av (x) &  &  \\ \midrule
-    -0.105 & +1.087  & -10.54     &  &  \\
-    -1.008  & +10.236   & -10.15     &  &  \\
-    +1.004  & -10.104   & -10.06     &  &  \\ \bottomrule
-  \end{tabular}
-  \caption{R2 = 100k$\Omega$}
-  \label{invDCtable1}
-\end{table}
 
-\begin{table}[h]
-  \centering
-  \begin{tabular}{@{}lllll@{}}
-    \toprule
-    Uin (V) & Uout (V) & Av (x) &  &  \\ \midrule
-    -0.1051 & +0.1051  & -1     &  &  \\
-    -1.008  & +1.008   & -1     &  &  \\
-    +1.004  & -1.004   & -1     &  &  \\ \bottomrule
-  \end{tabular}
-  \caption{R2 = 10k$\Omega$}
-  \label{invDCtable2}
-\end{table}
+\subsection{Measurements}\label{measurements}
+
+\begin{longtable}[c]{@{}lll@{}}
+\toprule\addlinespace
+Uin (V) & Uout (V) & Av (ggr)
+\\\addlinespace
+\midrule\endhead
+-0.105 & +1.087  & -10.54
+\\\addlinespace
+-1.008  & +10.236   & -10.15
+\\\addlinespace
++1.004  & -10.104   & -10.06
+\\\addlinespace
+\bottomrule
+\addlinespace
+\caption{R2 = 100k$\Omega$}
+\label{invDCtable1}
+\end{longtable}
+
+\begin{longtable}[c]{@{}lll@{}}
+\toprule\addlinespace
+Uin (V) & Uout (V) & Av (ggr)
+\\\addlinespace
+\midrule\endhead
+-0.1051 & +0.1051  & -1
+\\\addlinespace
+-1.008  & +1.008   & -1
+\\\addlinespace
++1.004  & -1.004   & -1
+\\\addlinespace
+\bottomrule
+\addlinespace
+\caption{R2 = 10k$\Omega$}
+\label{invDCtable2}
+\end{longtable}
 
 % ==============================================================================
 % SECTION: Inverting AC Amplifier
@@ -146,7 +156,7 @@ Measured amplification = --- Measured phase = 180 Theoretical amplifier
 
 \begin{figure}[htbp]
 \centering
-\includegraphics{img/invACamp.png}
+\includegraphics[scale=0.5]{img/invACamp.png}
 \caption{Inverting AC amplifier}
 \end{figure}
 
@@ -193,7 +203,7 @@ Uin (V) & Uout (V) & Av (ggr)
 
 \begin{figure}[htbp]
 \centering
-\includegraphics{img/noninvDCamp.png}
+\includegraphics[scale=0.5]{img/noninvDCamp.png}
 \caption{Non-inverting DC amplifier}
 \end{figure}
 
@@ -211,7 +221,7 @@ Theoretical amplification = Theoretical phase =
 
 \begin{figure}[htbp]
 \centering
-\includegraphics{img/noninvACamp.png}
+\includegraphics[scale=0.5]{img/noninvACamp.png}
 \caption{Non-inverting AC amplifier}
 \end{figure}
 
@@ -231,7 +241,7 @@ faster when D1 biases on. This improves circuit response times.
 
 \begin{figure}[htbp]
 \centering
-\includegraphics{img/fwr.png}
+\includegraphics[scale=0.5]{img/fwr.png}
 \caption{Active full wave rectifier}
 \end{figure}
 
