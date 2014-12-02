@@ -1,20 +1,21 @@
 % ==============================================================================
 % EE413A
 % Lab 2
-% The Operational Amplifier.
+% The Operational Amplifier
 %
 % Author:
 % Jonas Sjöberg     <tel12jsg@student.hig.se>
 % Esther Hedlund    <tfk13ehd@student.hig.se>
 % 
-% TODO: License.
+% License:
+% Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+% See LICENSE.md for full licensing information.
 % ==============================================================================
 
 
 % ==============================================================================
 % INCLUDES AND CONFIGURATION
 % ==============================================================================
-
 \documentclass[]{article}
 
 \usepackage[utf8]{inputenc}
@@ -26,13 +27,9 @@
 
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 
-
-
-
 % ==============================================================================
 % DOCUMENT METADATA 
 % ==============================================================================
-
 \title{EE413 \\ Lab 005 \\ the Operational Amplifier}
 \author{{Jonas Sjöberg} \and {Esther Hedlund}}
 
@@ -44,8 +41,8 @@
 
 \begin{center}
 \begin{tabular}{l r}
-Data Performed: & 26 November 2014 \\
-Instructor: TODO
+    Data Performed: & 26 November 2014 \\
+    Instructor: TODO
 \end{tabular}
 \end{center}
 
@@ -53,9 +50,8 @@ Instructor: TODO
 % ABSTRACT
 % ==============================================================================
 \begin{abstract}
-"This lab is meant to teach and show the practical use of NPN bjt amplifiers.
-The lab includes constructing and measuring DC circuits, calculating biasing networks,
-amplification, bandwidth and plotting characteristic curves of circuit parameters."
+"This lab is meant to show the practical use of the operational amplifier in
+analog circuit design. Several common circuit configurations will be discussed."
 \end{abstract}
 
 %{
@@ -69,7 +65,6 @@ amplification, bandwidth and plotting characteristic curves of circuit parameter
 % ==============================================================================
 % SECTION: Inverting DC Amplifier
 % ==============================================================================
-
 \section{Inverting DC Amplifier}\label{inverting-dc-amplifier}
 
 \subsection{Theory}\label{theory}
@@ -137,11 +132,9 @@ In both cases, the signal phase is inverted $180^\circ$.
   \label{invDCtable2}
 \end{table}
 
-
 % ==============================================================================
 % SECTION: Inverting AC Amplifier
 % ==============================================================================
-
 \section{Inverting AC Amplifier}\label{inverting-ac-amplifier}
 
 \subsection{Oscilloscope shots}\label{oscilloscope-shots}
@@ -157,11 +150,9 @@ Measured amplification = --- Measured phase = 180 Theoretical amplifier
 \caption{Inverting AC amplifier}
 \end{figure}
 
-
 % ==============================================================================
 % SECTION: Non-inverting DC Amplifier
 % ==============================================================================
-
 \section{Non-inverting DC Amplifier}\label{non-inverting-dc-amplifier}
 
 Av = 1 + R2/R1
@@ -206,11 +197,9 @@ Uin (V) & Uout (V) & Av (ggr)
 \caption{Non-inverting DC amplifier}
 \end{figure}
 
-
 % ==============================================================================
 % SECTION: Non-inverting AC Amplifier
 % ==============================================================================
-
 \section{Non-inverting AC Amplifier}\label{non-inverting-ac-amplifier}
 
 \subsection{Measurements}\label{measurements-3}
@@ -225,7 +214,6 @@ Theoretical amplification = Theoretical phase =
 \includegraphics{img/noninvACamp.png}
 \caption{Non-inverting AC amplifier}
 \end{figure}
-
 
 % ==============================================================================
 % SECTION: Active full wave rectifier
