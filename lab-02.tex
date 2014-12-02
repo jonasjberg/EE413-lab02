@@ -26,20 +26,7 @@
 
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 
-% use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-    \usepackage{xltxtra,xunicode}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
-  \newcommand{\euro}{€}
-\fi
+
 
 
 % ==============================================================================
@@ -129,7 +116,7 @@ In both cases, the signal phase is inverted $180^\circ$.
     -1.008  & +10.236   & -10.15     &  &  \\
     +1.004  & -10.104   & -10.06     &  &  \\ \bottomrule
   \end{tabular}
-  \caption{R2 = 100kΩ}
+  \caption{R2 = 100k$\Omega$}
   \label{invDCtable1}
 \end{table}
 
@@ -142,7 +129,7 @@ In both cases, the signal phase is inverted $180^\circ$.
     -1.008  & +1.008   & -1     &  &  \\
     +1.004  & -1.004   & -1     &  &  \\ \bottomrule
   \end{tabular}
-  \caption{R2 = 10kΩ}
+  \caption{R2 = 10k$\Omega$}
   \label{invDCtable2}
 \end{table}
 
@@ -181,7 +168,7 @@ Uin (V) & Uout (V) & Av (ggr)
 \\\addlinespace
 \bottomrule
 \addlinespace
-\caption{R2 = 10kΩ}
+\caption{R2 = 10k$\Omega$}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lll@{}}
@@ -197,7 +184,7 @@ Uin (V) & Uout (V) & Av (ggr)
 \\\addlinespace
 \bottomrule
 \addlinespace
-\caption{R2 = 100kΩ}
+\caption{R2 = 100k$\Omega$}
 \end{longtable}
 
 \begin{figure}[htbp]
