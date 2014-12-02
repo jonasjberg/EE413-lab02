@@ -62,7 +62,6 @@ Instructor: TODO
 \end{tabular}
 \end{center}
 
-
 % ==============================================================================
 % ABSTRACT
 % ==============================================================================
@@ -121,38 +120,31 @@ A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
 In both cases, the signal phase is inverted $180^\circ$.
 
 \subsection{Measurements}\label{measurements}
+\begin{table}[h]
+  \centering
+  \begin{tabular}{@{}lllll@{}}
+    \toprule
+    Uin (V) & Uout (V) & Av (x) &  &  \\ \midrule
+    -0.105 & +1.087  & -10.54     &  &  \\
+    -1.008  & +10.236   & -10.15     &  &  \\
+    +1.004  & -10.104   & -10.06     &  &  \\ \bottomrule
+  \end{tabular}
+  \caption{R2 = 100kΩ}
+  \label{invDCtable1}
+\end{table}
 
-\begin{tabular}{|l|c|r|}
-    \toprule\addlinespace
-    Uin (V) & Uout(V) & Av(x)
-    \\\addlinespace
-    \midrule\endhead
-    -0.105 & +1.087 & -10.54
-    \\\addlinespace
-    -1.008 & +10.236 & -10.15
-    \\\addlinespace
-    +1.004 & -10.104 & -10.06
-    \\\addlinespace
-    \bottomrule
-    \addlinespace
-    \caption{R2 = 100kΩ}
-\end{tabular}
-
-\begin{tabular}{|l|c|r|}
-    \toprule\addlinespace
-    Uin (V) & Uout(V) & Av(x)
-    \\\addlinespace
-    \midrule\endhead
-    -0.1051 & +0.1051 & -1
-    \\\addlinespace
-    -1.008 & +1.008 & -1
-    \\\addlinespace
-    +1.004 & -1.004 & -1
-    \\\addlinespace
-    \bottomrule
-    \addlinespace
-    \caption{R2 = 10kΩ}
-\end{tabular}
+\begin{table}[h]
+  \centering
+  \begin{tabular}{@{}lllll@{}}
+    \toprule
+    Uin (V) & Uout (V) & Av (x) &  &  \\ \midrule
+    -0.1051 & +0.1051  & -1     &  &  \\
+    -1.008  & +1.008   & -1     &  &  \\
+    +1.004  & -1.004   & -1     &  &  \\ \bottomrule
+  \end{tabular}
+  \caption{R2 = 10kΩ}
+  \label{invDCtable2}
+\end{table}
 
 
 \section{Inverting AC Amplifier}\label{inverting-ac-amplifier}
