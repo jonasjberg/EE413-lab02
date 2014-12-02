@@ -122,37 +122,38 @@ In both cases, the signal phase is inverted $180^\circ$.
 
 \subsection{Measurements}\label{measurements}
 
-\begin{longtable}[c]{@{}lll@{}}
-\toprule\addlinespace
-Uin (V) & Uout(V) & Av(x)
-\\\addlinespace
-\midrule\endhead
--0.105 & +1.087 & -10.54
-\\\addlinespace
--1.008 & +10.236 & -10.15
-\\\addlinespace
-+1.004 & -10.104 & -10.06
-\\\addlinespace
-\bottomrule
-\addlinespace
-\caption{R2 = 100kΩ}
-\end{longtable}
+\begin{tabular}{|l|c|r|}
+    \toprule\addlinespace
+    Uin (V) & Uout(V) & Av(x)
+    \\\addlinespace
+    \midrule\endhead
+    -0.105 & +1.087 & -10.54
+    \\\addlinespace
+    -1.008 & +10.236 & -10.15
+    \\\addlinespace
+    +1.004 & -10.104 & -10.06
+    \\\addlinespace
+    \bottomrule
+    \addlinespace
+    \caption{R2 = 100kΩ}
+\end{tabular}
 
-\begin{longtable}[c]{@{}lll@{}}
-\toprule\addlinespace
-Uin (V) & Uout(V) & Av(x)
-\\\addlinespace
-\midrule\endhead
--0.1051 & +0.1051 & -1
-\\\addlinespace
--1.008 & +1.008 & -1
-\\\addlinespace
-+1.004 & -1.004 & -1
-\\\addlinespace
-\bottomrule
-\addlinespace
-\caption{R2 = 10kΩ}
-\end{longtable}
+\begin{tabular}{|l|c|r|}
+    \toprule\addlinespace
+    Uin (V) & Uout(V) & Av(x)
+    \\\addlinespace
+    \midrule\endhead
+    -0.1051 & +0.1051 & -1
+    \\\addlinespace
+    -1.008 & +1.008 & -1
+    \\\addlinespace
+    +1.004 & -1.004 & -1
+    \\\addlinespace
+    \bottomrule
+    \addlinespace
+    \caption{R2 = 10kΩ}
+\end{tabular}
+
 
 \section{Inverting AC Amplifier}\label{inverting-ac-amplifier}
 
