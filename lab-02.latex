@@ -1,13 +1,30 @@
-\documentclass[]{article}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
+% ==============================================================================
+% EE413A
+% Lab 2
+% The Operational Amplifier.
+%
+% Author:
+% Jonas Sjöberg     <tel12jsg@student.hig.se>
+% Esther Hedlund    <tfk13ehd@student.hig.se>
+% 
+% TODO: License.
+% ==============================================================================
 
-%% added
-\usepackage{abstract}
-%%
+
+% ==============================================================================
+% INCLUDES AND CONFIGURATION
+% ==============================================================================
+
+\documentclass[]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI
+\usepackage{amssymb,amsmath}
+\usepackage{graphicx}
+\usepackage{longtable,booktabs}
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
 
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -23,75 +40,43 @@
   \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
   \newcommand{\euro}{€}
 \fi
-% use microtype if available
-\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
-\usepackage{longtable,booktabs}
-\usepackage{graphicx}
-% Redefine \includegraphics so that, unless explicit options are
-% given, the image width will not exceed the width of the page.
-% Images get their normal width if they fit onto the page, but
-% are scaled down if they would overflow the margins.
-\makeatletter
-\def\ScaleIfNeeded{%
-  \ifdim\Gin@nat@width>\linewidth
-    \linewidth
-  \else
-    \Gin@nat@width
-  \fi
-}
-\makeatother
-\let\Oldincludegraphics\includegraphics
-{%
- \catcode`\@=11\relax%
- \gdef\includegraphics{\@ifnextchar[{\Oldincludegraphics}{\Oldincludegraphics[width=\ScaleIfNeeded]}}%
-}%
-\ifxetex
-  \usepackage[setpagesize=false, % page size defined by xetex
-              unicode=false, % unicode breaks when used with xetex
-              xetex]{hyperref}
-\else
-  \usepackage[unicode=true]{hyperref}
-\fi
-\hypersetup{breaklinks=true,
-            bookmarks=true,
-            pdfauthor={},
-            pdftitle={Lab 005: the Operational Amplifier},
-            colorlinks=true,
-            citecolor=blue,
-            urlcolor=blue,
-            linkcolor=magenta,
-            pdfborder={0 0 0}}
-\urlstyle{same}  % don't use monospace font for urls
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\setcounter{secnumdepth}{5}
 
-\title{Lab 005: the Operational Amplifier}
+
+% ==============================================================================
+% DOCUMENT METADATA 
+% ==============================================================================
+
+\title{EE413 \\ Lab 005 \\ the Operational Amplifier}
 \author{{Jonas Sjöberg} \and {Esther Hedlund}}
+
 \date{}
 
 \begin{document}
+
 \maketitle
 
-%Jonas Sjöberg\
-%(Högskolan i Gävle)\\
-%Esther Hedlund\
-%(Högskolan i Gävle)\\
+\begin{center}
+\begin{tabular}{l r}
+Data Performed: & 26 November 2014 \\
+Instructor: TODO
+\end{tabular}
+\end{center}
 
 
+% ==============================================================================
+% ABSTRACT
+% ==============================================================================
 \begin{abstract}
 "This lab is meant to teach and show the practical use of NPN bjt amplifiers.
 The lab includes constructing and measuring DC circuits, calculating biasing networks,
 amplification, bandwidth and plotting characteristic curves of circuit parameters."
 \end{abstract}
 
-{
-\hypersetup{linkcolor=black}
-\setcounter{tocdepth}{3}
-\tableofcontents
-}
-
+%{
+%\hypersetup{linkcolor=black}
+%\setcounter{tocdepth}{3}
+%\tableofcontents
+%}
 
 \newpage
 
@@ -137,37 +122,38 @@ In both cases, the signal phase is inverted $180^\circ$.
 
 \subsection{Measurements}\label{measurements}
 
-\begin{longtable}[c]{@{}lll@{}}
-\toprule\addlinespace
-Uin (V) & Uout(V) & Av(x)
-\\\addlinespace
-\midrule\endhead
--0.105 & +1.087 & -10.54
-\\\addlinespace
--1.008 & +10.236 & -10.15
-\\\addlinespace
-+1.004 & -10.104 & -10.06
-\\\addlinespace
-\bottomrule
-\addlinespace
-\caption{R2 = 100kΩ}
-\end{longtable}
+\begin{tabular}{|l|c|r|}
+    \toprule\addlinespace
+    Uin (V) & Uout(V) & Av(x)
+    \\\addlinespace
+    \midrule\endhead
+    -0.105 & +1.087 & -10.54
+    \\\addlinespace
+    -1.008 & +10.236 & -10.15
+    \\\addlinespace
+    +1.004 & -10.104 & -10.06
+    \\\addlinespace
+    \bottomrule
+    \addlinespace
+    \caption{R2 = 100kΩ}
+\end{tabular}
 
-\begin{longtable}[c]{@{}lll@{}}
-\toprule\addlinespace
-Uin (V) & Uout(V) & Av(x)
-\\\addlinespace
-\midrule\endhead
--0.1051 & +0.1051 & -1
-\\\addlinespace
--1.008 & +1.008 & -1
-\\\addlinespace
-+1.004 & -1.004 & -1
-\\\addlinespace
-\bottomrule
-\addlinespace
-\caption{R2 = 10kΩ}
-\end{longtable}
+\begin{tabular}{|l|c|r|}
+    \toprule\addlinespace
+    Uin (V) & Uout(V) & Av(x)
+    \\\addlinespace
+    \midrule\endhead
+    -0.1051 & +0.1051 & -1
+    \\\addlinespace
+    -1.008 & +1.008 & -1
+    \\\addlinespace
+    +1.004 & -1.004 & -1
+    \\\addlinespace
+    \bottomrule
+    \addlinespace
+    \caption{R2 = 10kΩ}
+\end{tabular}
+
 
 \section{Inverting AC Amplifier}\label{inverting-ac-amplifier}
 
