@@ -21,7 +21,9 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI
-\usepackage{amssymb,amsmath}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
 \usepackage{graphicx}
 \usepackage{longtable,booktabs}
 \usepackage{microtype}
@@ -46,9 +48,9 @@
   \texttt{tfk13ehd@student.hig.se}\\}
 
 \date{}
-
+% ==============================================================================
 \begin{document}
-
+% ==============================================================================
 \maketitle
 
 \begin{center}
@@ -360,7 +362,7 @@ figure~\ref{fig:noninvACamp}.
 TODO
 
 
-\subsection{Oscilloscope shots}\label{invAC-oscilloscope-shots}
+\subsection{Oscilloscope shots}\label{noninvAC-oscilloscope-shots}
 % ==============================================================================
 Oscilloscope photos in figure~\ref{fig:noninvACamp-x1_scope} and
 figure~\ref{fig:noninvACamp-x10_scope} show the amplifier input on channel one
@@ -428,6 +430,60 @@ for the high impedance 10:1 probe setting.
     \label{fig:fwr2_scope}
 \end{figure}
 
+
+% ==============================================================================
+% SECTION: Low pass filter
+% ==============================================================================
+\section{Low pass filter}\label{lowpass-filter}
+% ==============================================================================
+
+\subsection{Theory}\label{lpf-theory}
+% ==============================================================================
+\begin{figure}[htbp]
+    \centering
+        \includegraphics[scale=0.5]{img/lowpassfilter.png}
+    \caption{Low pass filter}
+    \label{fig:lpf-schem}
+\end{figure}
+
+The basic topology for a first order active low pass filter is shown in Figure~\ref{fig:lpf-schem}.
+
+\subsection{Measurements}\label{lpf-measurements}
+% ==============================================================================
+TODO
+
+\subsection{Oscilloscope shots}\label{lpf-oscilloscope-shots}
+% ==============================================================================
+TODO
+
+
+% ==============================================================================
+% SECTION: Zener clipper
+% ==============================================================================
+\section{Zener diode clipper}\label{zener-clipper}
+% ==============================================================================
+
+\subsection{Theory}\label{clipper-theory}
+% ==============================================================================
+\begin{figure}[htbp]
+    \centering
+        \includegraphics[scale=0.5]{img/zenerclipper.png}
+    \caption{Zener diode clipper}
+    \label{fig:clipper-schem}
+\end{figure}
+
+The schematic for a inverting amplifier with a diode amplitude limiting clipper
+is shown in Figure~\ref{fig:clipper-schem}.
+
+\subsection{Measurements}\label{clipper-measurements}
+% ==============================================================================
+TODO
+
+\subsection{Oscilloscope shots}\label{clipper-oscilloscope-shots}
+% ==============================================================================
+TODO
+
+
 % ==============================================================================
 % SECTION: Results
 % ==============================================================================
@@ -435,4 +491,25 @@ for the high impedance 10:1 probe setting.
 % ==============================================================================
 TODO
 
+\newpage
+
+% ==============================================================================
+% SECTION: References
+% ==============================================================================
+\section{References}\label{references}
+
+\subsection{Literature}\label{literature}
+% ==============================================================================
+Horowitz and Hill - The Art of Electronics, Cambridge University Press
+1989. Horowitz and Hayes - Student Manual for the Art of Electronics,
+Cambridge 1989.
+
+\subsection{Sources}\label{sources}
+% ==============================================================================
+Full source, including spice simulation files, CSV data, schematics, etc
+is available at https://github.com/jonasjberg/EE413-lab02
+
+
+% ==============================================================================
 \end{document}
+% ==============================================================================

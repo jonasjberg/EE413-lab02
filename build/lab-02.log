@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  3 DEC 2014 21:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  3 DEC 2014 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -763,26 +763,23 @@ File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 (build/lab-02.aux
 
-LaTeX Warning: Label `invAC-oscilloscope-shots' multiply defined.
-
-
 LaTeX Warning: Label `setup' multiply defined.
 
 )
 \openout1 = `lab-02.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
@@ -921,7 +918,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 50.
+LaTeX Info: Redefining \microtypecontext on input line 52.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -937,7 +934,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \c__siunitx_mathsf_int=\count164
-LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+LaTeX Font Info:    Try loading font information for U+msa on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -945,7 +942,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+LaTeX Font Info:    Try loading font information for U+msb on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -972,14 +969,14 @@ Package microtype Info: Loading generic settings for font family
 <img/invDCamp.png, id=15, 460.72125pt x 405.515pt>
 File: img/invDCamp.png Graphic file (type png)
  <use img/invDCamp.png>
-Package pdftex.def Info: img/invDCamp.png used on input line 98.
+Package pdftex.def Info: img/invDCamp.png used on input line 100.
 (pdftex.def)             Requested size: 230.36006pt x 202.75699pt.
 
 [3 <./img/invDCamp.png>] [4]
 <img/invACamp.png, id=27, 478.78876pt x 407.5225pt>
 File: img/invACamp.png Graphic file (type png)
  <use img/invACamp.png>
-Package pdftex.def Info: img/invACamp.png used on input line 210.
+Package pdftex.def Info: img/invACamp.png used on input line 212.
 (pdftex.def)             Requested size: 239.39378pt x 203.76074pt.
 
 [5 <./img/invACamp.png>]
@@ -987,42 +984,42 @@ Package pdftex.def Info: img/invACamp.png used on input line 210.
 File: img/invACamp-x10.jpg Graphic file (type jpg)
 
 <use img/invACamp-x10.jpg>
-Package pdftex.def Info: img/invACamp-x10.jpg used on input line 258.
+Package pdftex.def Info: img/invACamp-x10.jpg used on input line 260.
 (pdftex.def)             Requested size: 270.0pt x 214.39412pt.
 
 <img/invACamp-x1.jpg, id=32, 1106.1325pt x 876.27374pt>
 File: img/invACamp-x1.jpg Graphic file (type jpg)
 
 <use img/invACamp-x1.jpg>
-Package pdftex.def Info: img/invACamp-x1.jpg used on input line 265.
+Package pdftex.def Info: img/invACamp-x1.jpg used on input line 267.
 (pdftex.def)             Requested size: 270.0pt x 213.89337pt.
 
 <img/noninvDCamp.png, id=33, 426.59375pt x 432.61626pt>
 File: img/noninvDCamp.png Graphic file (type png)
 
 <use img/noninvDCamp.png>
-Package pdftex.def Info: img/noninvDCamp.png used on input line 282.
+Package pdftex.def Info: img/noninvDCamp.png used on input line 284.
 (pdftex.def)             Requested size: 213.29634pt x 216.3076pt.
  [6] [7 <./img/invACamp-x10.jpg> <./img/invACamp-x1.jpg>] <img/noninvACamp.png,
  id=41, 413.545pt x 424.58624pt>
 File: img/noninvACamp.png Graphic file (type png)
 
 <use img/noninvACamp.png>
-Package pdftex.def Info: img/noninvACamp.png used on input line 352.
+Package pdftex.def Info: img/noninvACamp.png used on input line 354.
 (pdftex.def)             Requested size: 206.77199pt x 212.2926pt.
 
 <img/noninvACamp-x1.jpg, id=42, 2144.01pt x 1708.3825pt>
 File: img/noninvACamp-x1.jpg Graphic file (type jpg)
 
 <use img/noninvACamp-x1.jpg>
-Package pdftex.def Info: img/noninvACamp-x1.jpg used on input line 372.
+Package pdftex.def Info: img/noninvACamp-x1.jpg used on input line 374.
 (pdftex.def)             Requested size: 270.0pt x 215.13742pt.
 
 <img/noninvACamp-x10.jpg, id=43, 2333.71875pt x 1851.91875pt>
 File: img/noninvACamp-x10.jpg Graphic file (type jpg)
 
 <use img/noninvACamp-x10.jpg>
-Package pdftex.def Info: img/noninvACamp-x10.jpg used on input line 379.
+Package pdftex.def Info: img/noninvACamp-x10.jpg used on input line 381.
 (pdftex.def)             Requested size: 270.0pt x 214.2519pt.
 
 Overfull \vbox (184.76654pt too high) has occurred while \output is active []
@@ -1032,35 +1029,49 @@ Overfull \vbox (184.76654pt too high) has occurred while \output is active []
 g>] <img/fwr.png, id=50, 521.95pt x 720.6925pt>
 File: img/fwr.png Graphic file (type png)
  <use img/fwr.png>
-Package pdftex.def Info: img/fwr.png used on input line 404.
+Package pdftex.def Info: img/fwr.png used on input line 406.
 (pdftex.def)             Requested size: 260.97435pt x 360.34537pt.
 
 <img/fwr1.jpg, id=51, 1300.86pt x 971.63pt>
 File: img/fwr1.jpg Graphic file (type jpg)
  <use img/fwr1.jpg>
-Package pdftex.def Info: img/fwr1.jpg used on input line 419.
+Package pdftex.def Info: img/fwr1.jpg used on input line 421.
 (pdftex.def)             Requested size: 270.0pt x 201.66136pt.
 
 <img/fwr2.jpg, id=52, 1300.86pt x 971.63pt>
 File: img/fwr2.jpg Graphic file (type jpg)
  <use img/fwr2.jpg>
-Package pdftex.def Info: img/fwr2.jpg used on input line 426.
+Package pdftex.def Info: img/fwr2.jpg used on input line 428.
 (pdftex.def)             Requested size: 270.0pt x 201.66136pt.
+
+<img/lowpassfilter.png, id=53, 421.575pt x 472.76625pt>
+File: img/lowpassfilter.png Graphic file (type png)
+
+<use img/lowpassfilter.png>
+Package pdftex.def Info: img/lowpassfilter.png used on input line 444.
+(pdftex.def)             Requested size: 210.78697pt x 236.38254pt.
  [10 <./img/noninvACamp-x10.jpg>] [11 <./img/fwr.png>] [12 <./img/fwr1.jpg> <./
 img/fwr2.jpg>]
-(build/lab-02.aux)
+<img/zenerclipper.png, id=63, 421.575pt x 488.82625pt>
+File: img/zenerclipper.png Graphic file (type png)
+
+<use img/zenerclipper.png>
+Package pdftex.def Info: img/zenerclipper.png used on input line 470.
+(pdftex.def)             Requested size: 210.78697pt x 244.41252pt.
+ [13 <./img/lowpassfilter.png>] [14 <./img/zenerclipper.png>] [15] (build/lab-0
+2.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12457 strings out of 494985
- 254515 string characters out of 6180356
- 299995 words of memory out of 5000000
- 15431 multiletter control sequences out of 15000+600000
+ 12481 strings out of 494985
+ 254997 string characters out of 6180356
+ 300143 words of memory out of 5000000
+ 15453 multiletter control sequences out of 15000+600000
  14672 words of font info for 73 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,10n,35p,10426b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,35p,10418b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -1072,10 +1083,10 @@ ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb>
-Output written on build/lab-02.pdf (12 pages, 4692214 bytes).
+Output written on build/lab-02.pdf (15 pages, 4721404 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 110 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 17464 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 17474 words of extra memory for PDF output out of 20736 (max. 10000000)
 

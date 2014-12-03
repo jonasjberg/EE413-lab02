@@ -16,4 +16,15 @@
 \contentsline {section}{\numberline {6}Active full wave rectifier}{10}
 \contentsline {subsection}{\numberline {6.1}Theory}{10}
 \contentsline {subsection}{\numberline {6.2}Oscilloscope shots}{10}
-\contentsline {section}{\numberline {7}Results}{10}
+\contentsline {section}{\numberline {7}Low pass filter}{10}
+\contentsline {subsection}{\numberline {7.1}Theory}{10}
+\contentsline {subsection}{\numberline {7.2}Measurements}{13}
+\contentsline {subsection}{\numberline {7.3}Oscilloscope shots}{13}
+\contentsline {section}{\numberline {8}Zener diode clipper}{13}
+\contentsline {subsection}{\numberline {8.1}Theory}{13}
+\contentsline {subsection}{\numberline {8.2}Measurements}{13}
+\contentsline {subsection}{\numberline {8.3}Oscilloscope shots}{13}
+\contentsline {section}{\numberline {9}Results}{14}
+\contentsline {section}{\numberline {10}References}{15}
+\contentsline {subsection}{\numberline {10.1}Literature}{15}
+\contentsline {subsection}{\numberline {10.2}Sources}{15}
