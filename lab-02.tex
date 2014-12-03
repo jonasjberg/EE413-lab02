@@ -100,9 +100,13 @@ No decoupling caps was used and signal lines were not properly terminated.
     \label{fig:invDCamp}
 \end{figure}
 
-The basic topology for an inverting amplifier is shown in Figure~\ref{fig:invDCamp}.
-Gain $A_v$, can be expressed as a ratio of the feedback impedance to the
-input impedance. Op amp action makes the negative input appear as a "virtual earth" summing node. The voltage drops across the resistors scale linearly with their value, and since the op amp compensates to ensure equality in the summing junction, the net effect is an amplified and inverted output.
+The basic topology for an inverting amplifier is shown in
+Figure~\ref{fig:invDCamp}.  Gain $A_v$, can be expressed as a ratio of the
+feedback impedance to the input impedance. Op amp action makes the negative
+input appear as a "virtual earth" summing node. The voltage drops across the
+resistors scale linearly with their value, and since the op amp compensates to
+ensure equality in the summing junction, the net effect is an amplified and
+inverted output.
 
 \begin{equation}
     A_v = \frac{R_2}{R_1}
@@ -132,7 +136,8 @@ In both cases, the signal phase is inverted $180^\circ$.
 \subsection{Measurements}\label{invDC-measurements}
 % ==============================================================================
 
-Measured values for the test setup are shown in Table~\ref{invDCtable1} and Table~\ref{invDCtable2}.
+Measured values for the test setup are shown in Table~\ref{invDCtable1} and
+Table~\ref{invDCtable2}.
 
 \begin{longtable}[c]{@{}lll@{}}
 \toprule\addlinespace
@@ -169,7 +174,9 @@ $U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
 \end{longtable}
 
 % Circuit #1
-For $R_2 = 100k\Omega$, the actual measured in circuit values of $R_2$ and $R_1$ were 119k$\Omega$ and 11.7k$\Omega$, respectively. Calculated circuit gain for non-ideal, real components;
+For $R_2 = 100k\Omega$, the actual measured in circuit values of $R_2$ and
+$R_1$ were 119k$\Omega$ and 11.7k$\Omega$, respectively. Calculated circuit
+gain for non-ideal, real components;
 
 \begin{align} 
 A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
@@ -179,7 +186,9 @@ A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
 
 
 % Circuit #2
-For $R_2 = 10k\Omega$, the actual measured in circuit values of $R_2$ and $R_1$ were 12.17k$\Omega$ and 11.7k$\Omega$, respectively. Calculated circuit gain for non-ideal, real components;
+For $R_2 = 10k\Omega$, the actual measured in circuit values of $R_2$ and $R_1$
+were 12.17k$\Omega$ and 11.7k$\Omega$, respectively. Calculated circuit gain
+for non-ideal, real components;
 
 \begin{align} 
 A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
@@ -204,7 +213,8 @@ A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
 \end{figure}
 
 
-The basic topology for an inverting AC amplifier is shown in Figure~\ref{fig:invACamp}.
+The basic topology for an inverting AC amplifier is shown in
+Figure~\ref{fig:invACamp}.
 
 
 \begin{equation}
@@ -238,9 +248,10 @@ TODO
 
 \subsection{Oscilloscope shots}\label{invAC-oscilloscope-shots}
 % ==============================================================================
-Oscilloscope photos in figure~\ref{fig:invACamp20dB_scope} and figure~\ref{fig:invACampunity_scope} show the amplifier input on channel one
-the amplifier output on channel two.
-Channel two volts/div is set to compensate for the high impedance 10:1 probe setting. 
+Oscilloscope photos in figure~\ref{fig:invACamp20dB_scope} and
+figure~\ref{fig:invACampunity_scope} show the amplifier input on channel one
+the amplifier output on channel two.  Channel two volts/div is set to
+compensate for the high impedance 10:1 probe setting. 
 
 \begin{figure}[htbp]
     \centering
@@ -273,9 +284,10 @@ Channel two volts/div is set to compensate for the high impedance 10:1 probe set
     \label{fig:noninvDCamp}
 \end{figure}
 
-The basic topology for an non-inverting DC amplifier is shown in Figure~\ref{fig:noninvDCamp}.
-Gain $A_v$, is set by the attenuation-factor of the circuit in the feedback-loop. 
-A fraction of the output is fed back, causing the op amp to compensate and in effect amplify.
+The basic topology for an non-inverting DC amplifier is shown in
+Figure~\ref{fig:noninvDCamp}.  Gain $A_v$, is set by the attenuation-factor of
+the circuit in the feedback-loop.  A fraction of the output is fed back,
+causing the op amp to compensate and in effect amplify.
 
 \begin{equation}
     A_v = 1+\frac{R_2}{R_1}
@@ -285,7 +297,8 @@ A fraction of the output is fed back, causing the op amp to compensate and in ef
 \subsection{Measurements}\label{measurements-2}
 % ==============================================================================
 
-Measured values for the test setup are shown in Table~\ref{noninvDCtable1} and Table~\ref{noninvDCtable2}.
+Measured values for the test setup are shown in Table~\ref{noninvDCtable1} and
+Table~\ref{noninvDCtable2}.
 
 \begin{longtable}[c]{@{}lll@{}}
 \toprule\addlinespace
@@ -330,7 +343,9 @@ $U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
 
 \subsection{Theory}\label{noninvAC-theory}
 % ==============================================================================
-The lab circuit for the non-inverting AC amplifier is identical to the non-inverting DC amplifier. The basic topology is shown in figure~\ref{fig:noninvACamp}.
+The lab circuit for the non-inverting AC amplifier is identical to the
+non-inverting DC amplifier. The basic topology is shown in
+figure~\ref{fig:noninvACamp}.
 
 \begin{figure}[htbp]
     \centering
@@ -347,9 +362,10 @@ TODO
 
 \subsection{Oscilloscope shots}\label{invAC-oscilloscope-shots}
 % ==============================================================================
-Oscilloscope photos in figure~\ref{fig:noninvACamp-x1_scope} and figure~\ref{fig:noninvACamp-x10_scope} show the amplifier input on channel one
-the amplifier output on channel two.
-Channel volts/div is set to compensate for the high impedance 10:1 probe setting. 
+Oscilloscope photos in figure~\ref{fig:noninvACamp-x1_scope} and
+figure~\ref{fig:noninvACamp-x10_scope} show the amplifier input on channel one
+the amplifier output on channel two.  Channel volts/div is set to compensate
+for the high impedance 10:1 probe setting. 
 
 \begin{figure}[htbp]
     \centering
@@ -375,8 +391,13 @@ Channel volts/div is set to compensate for the high impedance 10:1 probe setting
 
 \subsection{Theory}\label{fwr-theory}
 % ==============================================================================
-Compared to a passive rectifier circuit, the active rectifier does not suffer from the ``deadzone'' when the signal is too small to turn on the rectifying diode. The op amp compensates for the diode forward voltage drop. 
-The circuit output is a full wave rectified version of the signal, with a frequency limit mostly set by the op amp bandwidth. Diode D2 prevents the op amp from hitting the rail hard when D1 is reverse biased. This makes the recovery and rise time faster when D1 biases on and this in turn improves circuit response times.
+Compared to a passive rectifier circuit, the active rectifier does not suffer
+from the ``deadzone'' when the signal is too small to turn on the rectifying
+diode. The op amp compensates for the diode forward voltage drop.  The circuit
+output is a full wave rectified version of the signal, with a frequency limit
+mostly set by the op amp bandwidth. Diode D2 prevents the op amp from hitting
+the rail hard when D1 is reverse biased. This makes the recovery and rise time
+faster when D1 biases on and this in turn improves circuit response times.
 
 \begin{figure}[htbp]
     \centering
@@ -388,8 +409,10 @@ The circuit output is a full wave rectified version of the signal, with a freque
 
 \subsection{Oscilloscope shots}\label{fwr-oscilloscope-shots}
 % ==============================================================================
-Oscilloscope photos in figure~\ref{fig:fwr1_scope} and figure~\ref{fig:fwr2_scope} show the input signal on channel one and the full wave rectifier output on channel two.
-Channel volts/div is set to compensate for the high impedance 10:1 probe setting. 
+Oscilloscope photos in figure~\ref{fig:fwr1_scope} and
+figure~\ref{fig:fwr2_scope} show the input signal on channel one and the full
+wave rectifier output on channel two.  Channel volts/div is set to compensate
+for the high impedance 10:1 probe setting. 
 
 \begin{figure}[htbp]
     \centering
