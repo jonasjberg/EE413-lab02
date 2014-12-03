@@ -33,6 +33,7 @@
 \title{EE413 \\ Lab 005 \\ the Operational Amplifier}
 \author{{Jonas Sjöberg} \and {Esther Hedlund}}
 
+
 \date{}
 
 \begin{document}
@@ -218,11 +219,29 @@ A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
 In both cases, the signal phase is inverted $180^\circ$.
 
 
-\subsection{Oscilloscope shots}\label{invAC-oscilloscope-shots}
-
 \subsection{Measurements}\label{invAC-measurements-1}
+% ==============================================================================
+Oscilloscope photos in figure~\ref{fig:invACamp20dB_scope} and figure~\ref{fig:invACampunity_scope} show the amplifier input on channel one
+the amplifier output on channel two.
+Channel two volts/div is set to compensate for the high impedance 10:1 probe setting. 
 
-TODO
+\subsection{Oscilloscope shots}\label{invAC-oscilloscope-shots}
+% ==============================================================================
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[scale=0.2]{img/invACamp-x10.jpg}
+    \caption{Inverting AC amplifier - 20dB gain}
+    \label{fig:invACamp20dB_scope}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[scale=0.2]{img/invACamp-x1.jpg}
+    \caption{Inverting AC amplifier - unity gain}
+    \label{fig:invACampunity_scope}
+\end{figure}
+
 
 % ==============================================================================
 % SECTION: Non-inverting DC Amplifier
