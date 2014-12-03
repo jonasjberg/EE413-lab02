@@ -244,14 +244,14 @@ Channel two volts/div is set to compensate for the high impedance 10:1 probe set
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[scale=0.2]{img/invACamp-x10.jpg}
+    \includegraphics[width=0.75\textwidth]{img/invACamp-x10.jpg}
     \caption{Inverting AC amplifier - 20dB gain}
     \label{fig:invACamp20dB_scope}
 \end{figure}
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[scale=0.2]{img/invACamp-x1.jpg}
+    \includegraphics[width=0.75\textwidth]{img/invACamp-x1.jpg}
     \caption{Inverting AC amplifier - unity gain}
     \label{fig:invACampunity_scope}
 \end{figure}
@@ -342,8 +342,28 @@ The lab circuit for the non-inverting AC amplifier is identical to the non-inver
 
 \subsection{Measurements}\label{measurements-3}
 % ==============================================================================
+TODO
 
 
+\subsection{Oscilloscope shots}\label{invAC-oscilloscope-shots}
+% ==============================================================================
+Oscilloscope photos in figure~\ref{fig:noninvACamp-x1_scope} and figure~\ref{fig:noninvACamp-x10_scope} show the amplifier input on channel one
+the amplifier output on channel two.
+Channel volts/div is set to compensate for the high impedance 10:1 probe setting. 
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/noninvACamp-x1.jpg}
+    \caption{Non-inverting AC amplifier - 6dB gain}
+    \label{fig:noninvACamp-x1_scope}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/noninvACamp-x10.jpg}
+    \caption{Non-inverting AC amplifier - 20dB gain}
+    \label{fig:noninvACamp-x10_scope}
+\end{figure}
 
 
 
@@ -353,18 +373,36 @@ The lab circuit for the non-inverting AC amplifier is identical to the non-inver
 \section{Active full wave rectifier}\label{active-full-wave-rectifier}
 % ==============================================================================
 
-Active rectifier does not suffer from the ``deadzone'' when the signal
-is too small to turn on the rectifying diode. The op amp compensates for
-the diode forward voltage drop. The circuit output is a full wave
-rectified version of the signal, with a frequency limit mostly set by
-the op amp bandwidth. Diode D2 prevents the op amp from hitting the rail
-hard when D1 is reverse biased. This makes the recovery and rise time
-faster when D1 biases on. This improves circuit response times.
+\subsection{Theory}\label{fwr-theory}
+% ==============================================================================
+Compared to a passive rectifier circuit, the active rectifier does not suffer from the ``deadzone'' when the signal is too small to turn on the rectifying diode. The op amp compensates for the diode forward voltage drop. 
+The circuit output is a full wave rectified version of the signal, with a frequency limit mostly set by the op amp bandwidth. Diode D2 prevents the op amp from hitting the rail hard when D1 is reverse biased. This makes the recovery and rise time faster when D1 biases on and this in turn improves circuit response times.
 
 \begin{figure}[htbp]
-\centering
-\includegraphics[scale=0.5]{img/fwr.png}
-\caption{Active full wave rectifier}
+    \centering
+    \includegraphics[scale=0.5]{img/fwr.png}
+    \caption{Active full wave rectifier}
+    \label{fig:fwr-schem}
+\end{figure}
+
+
+\subsection{Oscilloscope shots}\label{fwr-oscilloscope-shots}
+% ==============================================================================
+Oscilloscope photos in figure~\ref{fig:fwr1_scope} and figure~\ref{fig:fwr2_scope} show the input signal on channel one and the full wave rectifier output on channel two.
+Channel volts/div is set to compensate for the high impedance 10:1 probe setting. 
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/fwr1.jpg}
+    \caption{Full wave rectifier - input and rectified output}
+    \label{fig:fwr1_scope}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/fwr2.jpg}
+    \caption{Full wave rectifier - X/Y-view}
+    \label{fig:fwr2_scope}
 \end{figure}
 
 % ==============================================================================

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  3 DEC 2014 18:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  3 DEC 2014 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -761,7 +761,10 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-(./lab-02.aux
+(build/lab-02.aux
+
+LaTeX Warning: Label `invAC-oscilloscope-shots' multiply defined.
+
 
 LaTeX Warning: Label `setup' multiply defined.
 
@@ -961,7 +964,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./lab-02.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (build/lab-02.toc)
 \tf@toc=\write3
 \openout3 = `lab-02.toc'.
 
@@ -979,18 +982,20 @@ File: img/invACamp.png Graphic file (type png)
 Package pdftex.def Info: img/invACamp.png used on input line 201.
 (pdftex.def)             Requested size: 239.39378pt x 203.76074pt.
 
-[5 <./img/invACamp.png>] <img/invACamp-x10.jpg, id=31, 1300.86pt x 971.63pt>
+[5 <./img/invACamp.png>]
+<img/invACamp-x10.jpg, id=31, 1111.15125pt x 882.29625pt>
 File: img/invACamp-x10.jpg Graphic file (type jpg)
 
 <use img/invACamp-x10.jpg>
 Package pdftex.def Info: img/invACamp-x10.jpg used on input line 247.
-(pdftex.def)             Requested size: 260.16739pt x 194.32256pt.
- <img/invACamp-x1.jpg, id=32, 1300.86pt x 971.63pt>
+(pdftex.def)             Requested size: 270.0pt x 214.39412pt.
+
+<img/invACamp-x1.jpg, id=32, 1106.1325pt x 876.27374pt>
 File: img/invACamp-x1.jpg Graphic file (type jpg)
 
 <use img/invACamp-x1.jpg>
 Package pdftex.def Info: img/invACamp-x1.jpg used on input line 254.
-(pdftex.def)             Requested size: 260.16739pt x 194.32256pt.
+(pdftex.def)             Requested size: 270.0pt x 213.89337pt.
 
 <img/noninvDCamp.png, id=33, 426.59375pt x 432.61626pt>
 File: img/noninvDCamp.png Graphic file (type png)
@@ -1005,28 +1010,55 @@ File: img/noninvACamp.png Graphic file (type png)
 <use img/noninvACamp.png>
 Package pdftex.def Info: img/noninvACamp.png used on input line 337.
 (pdftex.def)             Requested size: 206.77199pt x 212.2926pt.
- <img/fwr.png, id=42, 521.95pt x 720.6925pt>
-File: img/fwr.png Graphic file (type png)
 
-<use img/fwr.png>
-Package pdftex.def Info: img/fwr.png used on input line 366.
+<img/noninvACamp-x1.jpg, id=42, 2144.01pt x 1708.3825pt>
+File: img/noninvACamp-x1.jpg Graphic file (type jpg)
+
+<use img/noninvACamp-x1.jpg>
+Package pdftex.def Info: img/noninvACamp-x1.jpg used on input line 356.
+(pdftex.def)             Requested size: 270.0pt x 215.13742pt.
+
+<img/noninvACamp-x10.jpg, id=43, 2333.71875pt x 1851.91875pt>
+File: img/noninvACamp-x10.jpg Graphic file (type jpg)
+
+<use img/noninvACamp-x10.jpg>
+Package pdftex.def Info: img/noninvACamp-x10.jpg used on input line 363.
+(pdftex.def)             Requested size: 270.0pt x 214.2519pt.
+
+Overfull \vbox (184.76654pt too high) has occurred while \output is active []
+
+
+[8 <./img/noninvDCamp.png>] [9 <./img/noninvACamp.png> <./img/noninvACamp-x1.jp
+g>] <img/fwr.png, id=50, 521.95pt x 720.6925pt>
+File: img/fwr.png Graphic file (type png)
+ <use img/fwr.png>
+Package pdftex.def Info: img/fwr.png used on input line 383.
 (pdftex.def)             Requested size: 260.97435pt x 360.34537pt.
 
-Overfull \vbox (218.95877pt too high) has occurred while \output is active []
+<img/fwr1.jpg, id=51, 1300.86pt x 971.63pt>
+File: img/fwr1.jpg Graphic file (type jpg)
+ <use img/fwr1.jpg>
+Package pdftex.def Info: img/fwr1.jpg used on input line 396.
+(pdftex.def)             Requested size: 270.0pt x 201.66136pt.
 
-
-[8 <./img/noninvDCamp.png>] [9 <./img/noninvACamp.png>] [10 <./img/fwr.png>]
+<img/fwr2.jpg, id=52, 1300.86pt x 971.63pt>
+File: img/fwr2.jpg Graphic file (type jpg)
+ <use img/fwr2.jpg>
+Package pdftex.def Info: img/fwr2.jpg used on input line 403.
+(pdftex.def)             Requested size: 270.0pt x 201.66136pt.
+ [10 <./img/noninvACamp-x10.jpg>] [11 <./img/fwr.png>] [12 <./img/fwr1.jpg> <./
+img/fwr2.jpg>]
 (build/lab-02.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12428 strings out of 494985
- 253942 string characters out of 6180356
- 300925 words of memory out of 5000000
- 15408 multiletter control sequences out of 15000+600000
- 14621 words of font info for 72 fonts, out of 8000000 for 9000
+ 12457 strings out of 494985
+ 254515 string characters out of 6180356
+ 299995 words of memory out of 5000000
+ 15431 multiletter control sequences out of 15000+600000
+ 14672 words of font info for 73 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  39i,10n,35p,10426b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -1040,10 +1072,10 @@ ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb>
-Output written on build/lab-02.pdf (10 pages, 495222 bytes).
+Output written on build/lab-02.pdf (12 pages, 4692214 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 17444 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 17464 words of extra memory for PDF output out of 20736 (max. 10000000)
 

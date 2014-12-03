@@ -12,5 +12,8 @@
 \contentsline {section}{\numberline {5}Non-inverting AC Amplifier}{8}
 \contentsline {subsection}{\numberline {5.1}Theory}{8}
 \contentsline {subsection}{\numberline {5.2}Measurements}{8}
-\contentsline {section}{\numberline {6}Active full wave rectifier}{8}
-\contentsline {section}{\numberline {7}Results}{9}
+\contentsline {subsection}{\numberline {5.3}Oscilloscope shots}{8}
+\contentsline {section}{\numberline {6}Active full wave rectifier}{10}
+\contentsline {subsection}{\numberline {6.1}Theory}{10}
+\contentsline {subsection}{\numberline {6.2}Oscilloscope shots}{10}
+\contentsline {section}{\numberline {7}Results}{10}
