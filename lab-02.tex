@@ -75,8 +75,10 @@ A classic 741 op amp was used with a +/-15V power supply.
 % SECTION: Inverting DC Amplifier
 % ==============================================================================
 \section{Inverting DC Amplifier}\label{inverting-dc-amplifier}
+% ==============================================================================
 
-\subsection{Theory}\label{theory}
+\subsection{Theory}\label{invDC-theory}
+% ==============================================================================
 
 \begin{figure}[htbp]
     \centering
@@ -86,9 +88,8 @@ A classic 741 op amp was used with a +/-15V power supply.
 \end{figure}
 
 The basic topology for an inverting amplifier is shown in Figure~\ref{fig:invDCamp}.
-Gain, Av, can be expressed as a ratio of the feedback impedance to the
-input impedance. A fraction of the output is fed back, causing the op
-amp to compensate and in effect amplify.
+Gain $A_v$, can be expressed as a ratio of the feedback impedance to the
+input impedance. Op amp action makes the negative input appear as a "virtual earth" summing node. The voltage drops across the resistors scale linearly with their value, and since the op amp compensates to ensure equality in the summing junction, the net effect is an amplified and inverted output.
 
 \begin{equation}
     A_v = \frac{R_2}{R_1}
@@ -115,7 +116,8 @@ A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
 In both cases, the signal phase is inverted $180^\circ$.
 
 
-\subsection{Measurements}\label{measurements}
+\subsection{Measurements}\label{invDC-measurements}
+% ==============================================================================
 
 Measured values for the test setup.
 \begin{longtable}[c]{@{}lll@{}}
@@ -168,35 +170,87 @@ For $R_2 = 10k\Omega$, the actual measured in circuit values of $R_2$ and $R_1$ 
 \begin{align} 
 A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
         &= \frac{12.17k\Omega}{11.7k\Omega} = 1.04\times\\
-        &= 20 \times \log{\frac{1}{1}} = 0.34dB  
+        &= 20 \times \log{\frac{\frac{12.17k\Omega}{11.7k\Omega}}{1}} = 0.34dB  
 \end{align}
 
 % ==============================================================================
 % SECTION: Inverting AC Amplifier
 % ==============================================================================
 \section{Inverting AC Amplifier}\label{inverting-ac-amplifier}
+% ==============================================================================
 
-\subsection{Oscilloscope shots}\label{oscilloscope-shots}
-
-\subsection{Measurements}\label{measurements-1}
-
-Measured amplification = --- Measured phase = 180 Theoretical amplifier
-=\\Theoretical phase =
+\subsection{Theory}\label{invAC-theory}
+% ==============================================================================
 
 \begin{figure}[htbp]
-\centering
-\includegraphics[scale=0.5]{img/invACamp.png}
-\caption{Inverting AC amplifier}
+    \centering
+    \includegraphics[scale=0.5]{img/invACamp.png}
+    \caption{Inverting AC amplifier}
+    \label{fig:invACamp}
 \end{figure}
+
+
+The basic topology for an inverting AC amplifier is shown in Figure~\ref{fig:invACamp}.
+
+
+\begin{equation}
+    A_v = 1+\frac{R_2}{R_1}
+\end{equation}
+
+The circuit gain for ideal components is;
+
+For $R_2 = 100k\Omega$:
+
+\begin{align} 
+A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
+        &= \frac{100k\Omega}{10k\Omega} = 10\times\\
+        &= 20 \times \log{\frac{10}{1}} = 20dB  
+\end{align}
+
+For $R_2 = 10k\Omega$:
+
+\begin{align} 
+A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
+        &= \frac{10k\Omega}{10k\Omega} = 10\times\\
+        &= 20 \times \log{\frac{1}{1}} = 0dB  
+\end{align}
+
+In both cases, the signal phase is inverted $180^\circ$.
+
+
+\subsection{Oscilloscope shots}\label{invAC-oscilloscope-shots}
+
+\subsection{Measurements}\label{invAC-measurements-1}
+
+TODO
 
 % ==============================================================================
 % SECTION: Non-inverting DC Amplifier
 % ==============================================================================
 \section{Non-inverting DC Amplifier}\label{non-inverting-dc-amplifier}
+% ==============================================================================
 
-Av = 1 + R2/R1
+\subsection{Theory}\label{noninvDC-theory}
+% ==============================================================================
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[scale=0.5]{img/noninvDCamp.png}
+    \caption{Non-inverting DC amplifier}
+    \label{fig:noninvDCamp}
+\end{figure}
+
+The basic topology for an non-inverting DC amplifier is shown in Figure~\ref{fig:noninvDCamp}.
+Gain $A_v$, is set by the attenuation-factor of the circuit in the feedback-loop. 
+A fraction of the output is fed back, causing the op amp to compensate and in effect amplify.
+
+\begin{equation}
+    A_v = 1+\frac{R_2}{R_1}
+\end{equation}
+
 
 \subsection{Measurements}\label{measurements-2}
+% ==============================================================================
 
 \begin{longtable}[c]{@{}lll@{}}
 \toprule\addlinespace
@@ -230,18 +284,15 @@ $U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
 \caption{$R_2 = 100k\Omega$}
 \end{longtable}
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[scale=0.5]{img/noninvDCamp.png}
-\caption{Non-inverting DC amplifier}
-\end{figure}
 
 % ==============================================================================
 % SECTION: Non-inverting AC Amplifier
 % ==============================================================================
 \section{Non-inverting AC Amplifier}\label{non-inverting-ac-amplifier}
+% ==============================================================================
 
 \subsection{Measurements}\label{measurements-3}
+% ==============================================================================
 
 Input signal amplitude =\\Output signal amplitude =\\Measured
 amplification =\\Measured phase =
@@ -257,8 +308,8 @@ Theoretical amplification = Theoretical phase =
 % ==============================================================================
 % SECTION: Active full wave rectifier
 % ==============================================================================
-
 \section{Active full wave rectifier}\label{active-full-wave-rectifier}
+% ==============================================================================
 
 Active rectifier does not suffer from the ``deadzone'' when the signal
 is too small to turn on the rectifying diode. The op amp compensates for
@@ -278,6 +329,7 @@ faster when D1 biases on. This improves circuit response times.
 % SECTION: Results
 % ==============================================================================
 \section{Results}\label{setup}
+% ==============================================================================
 TODO
 
 \end{document}
