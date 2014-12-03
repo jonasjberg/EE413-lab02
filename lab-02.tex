@@ -100,7 +100,7 @@ For $R_2 = 100k\Omega$:
 
 \begin{align} 
 A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
-        &= \frac{100k\Omega}{10k\Omega} = 10\\
+        &= \frac{100k\Omega}{10k\Omega} = 10\times\\
         &= 20 \times \log{\frac{10}{1}} = 20dB  
 \end{align}
 
@@ -108,7 +108,7 @@ For $R_2 = 10k\Omega$:
 
 \begin{align} 
 A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
-        &= \frac{10k\Omega}{10k\Omega} = 10\\
+        &= \frac{10k\Omega}{10k\Omega} = 10\times\\
         &= 20 \times \log{\frac{1}{1}} = 0dB  
 \end{align}
 
@@ -120,10 +120,10 @@ In both cases, the signal phase is inverted $180^\circ$.
 Measured values for the test setup.
 \begin{longtable}[c]{@{}lll@{}}
 \toprule\addlinespace
-Uin (V) & Uout (V) & Av (ggr)
+$U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
 \\\addlinespace
 \midrule\endhead
--0.105 & +1.087  & -10.54
+-0.103 & +1.087  & -10.35
 \\\addlinespace
 -1.008  & +10.236   & -10.15
 \\\addlinespace
@@ -131,26 +131,45 @@ Uin (V) & Uout (V) & Av (ggr)
 \\\addlinespace
 \bottomrule
 \addlinespace
-\caption{R2 = 100k$\Omega$}
+\caption{$R_2 = 100k\Omega$}
 \label{invDCtable1}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lll@{}}
 \toprule\addlinespace
-Uin (V) & Uout (V) & Av (ggr)
+$U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
 \\\addlinespace
 \midrule\endhead
--0.1051 & +0.1051  & -1
+-0.1003 & +0.112  & -1.116
 \\\addlinespace
--1.008  & +1.008   & -1
+-1.000  & +1.038   & -1.038
 \\\addlinespace
-+1.004  & -1.004   & -1
++1.005  & -1.027   & -1.022
 \\\addlinespace
 \bottomrule
 \addlinespace
-\caption{R2 = 10k$\Omega$}
+\caption{$R_2 = 10k\Omega$}
 \label{invDCtable2}
 \end{longtable}
+
+% Circuit #1
+For $R_2 = 100k\Omega$, the actual measured in circuit values of $R_2$ and $R_1$ were 119k$\Omega$ and 11.7k$\Omega$, respectively. Calculated circuit gain for non-ideal, real components;
+
+\begin{align} 
+A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
+        &= \frac{119k\Omega}{11.7k\Omega} = 10.17\times\\
+        &= 20 \times \log{\frac{\frac{119k\Omega}{11.7k\Omega}}{1}} = 20.15dB  
+\end{align}
+
+
+% Circuit #2
+For $R_2 = 10k\Omega$, the actual measured in circuit values of $R_2$ and $R_1$ were 12.17k$\Omega$ and 11.7k$\Omega$, respectively. Calculated circuit gain for non-ideal, real components;
+
+\begin{align} 
+A_v     &= \frac{V_{out}}{V_{in}} = -\frac{R_2}{R_1}\\
+        &= \frac{12.17k\Omega}{11.7k\Omega} = 1.04\times\\
+        &= 20 \times \log{\frac{1}{1}} = 0.34dB  
+\end{align}
 
 % ==============================================================================
 % SECTION: Inverting AC Amplifier
@@ -181,7 +200,7 @@ Av = 1 + R2/R1
 
 \begin{longtable}[c]{@{}lll@{}}
 \toprule\addlinespace
-Uin (V) & Uout (V) & Av (ggr)
+$U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
 \\\addlinespace
 \midrule\endhead
 +0.1007 & +0.2164 2 & .15
@@ -192,12 +211,12 @@ Uin (V) & Uout (V) & Av (ggr)
 \\\addlinespace
 \bottomrule
 \addlinespace
-\caption{R2 = 10k$\Omega$}
+\caption{$R_2 = 10k\Omega$}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lll@{}}
 \toprule\addlinespace
-Uin (V) & Uout (V) & Av (ggr)
+$U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
 \\\addlinespace
 \midrule\endhead
 +0.1009 & +1.178 & 11.67
@@ -208,7 +227,7 @@ Uin (V) & Uout (V) & Av (ggr)
 \\\addlinespace
 \bottomrule
 \addlinespace
-\caption{R2 = 100k$\Omega$}
+\caption{$R_2 = 100k\Omega$}
 \end{longtable}
 
 \begin{figure}[htbp]
