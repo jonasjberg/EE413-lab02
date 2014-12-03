@@ -1,12 +1,13 @@
 % ==============================================================================
 % EE413A
-% Lab 2
-% The Operational Amplifier
+% Lab 2 - The Operational Amplifier
+% ---------------------------------
+% Last updated 2014-12-03
 %
 % Author:
 % Jonas Sjöberg     <tel12jsg@student.hig.se>
-% Esther Hedlund    <tfk13ehd@student.hig.se>
-% 
+% Esther Hedlund    <tfk13ehd@student.hig.se> 
+%
 % License:
 % Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 % See LICENSE.md for full licensing information.
@@ -16,14 +17,14 @@
 % ==============================================================================
 % INCLUDES AND CONFIGURATION
 % ==============================================================================
-\documentclass[]{article}
+\documentclass[11pt,a4paper]{article}
 
 \usepackage[utf8]{inputenc}
 \usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI
 \usepackage{amssymb,amsmath}
 \usepackage{graphicx}
 \usepackage{longtable,booktabs}
-\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\usepackage{microtype}
 
 \setlength\parindent{0pt} % Removes all indentation from paragraphs
 
@@ -31,8 +32,18 @@
 % DOCUMENT METADATA 
 % ==============================================================================
 \title{EE413 \\ Lab 005 \\ the Operational Amplifier}
-\author{{Jonas Sjöberg} \and {Esther Hedlund}}
+%\author{{Jonas Sjöberg} \and {Esther Hedlund}}
 
+\author{\\
+  Jonas Sjöberg\\
+  Högskolan i Gävle,\\
+  Elektronikingenjörsprogrammet,\\
+  \texttt{tel12jsg@student.hig.se}\\
+  \\
+  Esther Hedlund\\
+  Högskolan i Gävle,\\
+  Elektronikingenjörsprogrammet,\\
+  \texttt{tfk13ehd@student.hig.se}\\}
 
 \date{}
 
@@ -43,7 +54,7 @@
 \begin{center}
 \begin{tabular}{l r}
     Data Performed: & 26 November 2014 \\
-    Instructor: TODO
+    Instructor: & Nauman Masud, Shoaib Amin
 \end{tabular}
 \end{center}
 
@@ -51,8 +62,8 @@
 % ABSTRACT
 % ==============================================================================
 \begin{abstract}
-"This lab is meant to show the practical use of the operational amplifier in
-analog circuit design. Several common circuit configurations will be discussed."
+This lab is meant to show the practical use of the operational amplifier in
+analog circuit design. Several common circuit configurations will be discussed.
 \end{abstract}
 
 \newpage
@@ -71,6 +82,7 @@ analog circuit design. Several common circuit configurations will be discussed."
 \section{Circuit prototyping setup}\label{setup}
 The circuit was build on a solderless breadboard, using through-hole parts.
 A classic 741 op amp was used with a +/-15V power supply.
+No decoupling caps was used and signal lines were not properly terminated.
 
 % ==============================================================================
 % SECTION: Inverting DC Amplifier
@@ -120,7 +132,8 @@ In both cases, the signal phase is inverted $180^\circ$.
 \subsection{Measurements}\label{invDC-measurements}
 % ==============================================================================
 
-Measured values for the test setup.
+Measured values for the test setup are shown in Table~\ref{invDCtable1} and Table~\ref{invDCtable2}.
+
 \begin{longtable}[c]{@{}lll@{}}
 \toprule\addlinespace
 $U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
@@ -221,12 +234,13 @@ In both cases, the signal phase is inverted $180^\circ$.
 
 \subsection{Measurements}\label{invAC-measurements-1}
 % ==============================================================================
-Oscilloscope photos in figure~\ref{fig:invACamp20dB_scope} and figure~\ref{fig:invACampunity_scope} show the amplifier input on channel one
-the amplifier output on channel two.
-Channel two volts/div is set to compensate for the high impedance 10:1 probe setting. 
+TODO
 
 \subsection{Oscilloscope shots}\label{invAC-oscilloscope-shots}
 % ==============================================================================
+Oscilloscope photos in figure~\ref{fig:invACamp20dB_scope} and figure~\ref{fig:invACampunity_scope} show the amplifier input on channel one
+the amplifier output on channel two.
+Channel two volts/div is set to compensate for the high impedance 10:1 probe setting. 
 
 \begin{figure}[htbp]
     \centering
@@ -271,6 +285,8 @@ A fraction of the output is fed back, causing the op amp to compensate and in ef
 \subsection{Measurements}\label{measurements-2}
 % ==============================================================================
 
+Measured values for the test setup are shown in Table~\ref{noninvDCtable1} and Table~\ref{noninvDCtable2}.
+
 \begin{longtable}[c]{@{}lll@{}}
 \toprule\addlinespace
 $U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
@@ -285,6 +301,7 @@ $U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
 \bottomrule
 \addlinespace
 \caption{$R_2 = 10k\Omega$}
+\label{noninvDCtable1}
 \end{longtable}
 
 \begin{longtable}[c]{@{}lll@{}}
@@ -301,6 +318,7 @@ $U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
 \bottomrule
 \addlinespace
 \caption{$R_2 = 100k\Omega$}
+\label{noninvDCtable2}
 \end{longtable}
 
 
@@ -310,19 +328,24 @@ $U_{in}$ (V) & $U_{out}$ (V) & $Av$ ($\times$)
 \section{Non-inverting AC Amplifier}\label{non-inverting-ac-amplifier}
 % ==============================================================================
 
+\subsection{Theory}\label{noninvAC-theory}
+% ==============================================================================
+The lab circuit for the non-inverting AC amplifier is identical to the non-inverting DC amplifier. The basic topology is shown in figure~\ref{fig:noninvACamp}.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[scale=0.5]{img/noninvACamp.png}
+    \caption{Non-inverting AC amplifier}
+    \label{fig:noninvACamp}
+\end{figure}
+
+
 \subsection{Measurements}\label{measurements-3}
 % ==============================================================================
 
-Input signal amplitude =\\Output signal amplitude =\\Measured
-amplification =\\Measured phase =
 
-Theoretical amplification = Theoretical phase =
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[scale=0.5]{img/noninvACamp.png}
-\caption{Non-inverting AC amplifier}
-\end{figure}
+
 
 % ==============================================================================
 % SECTION: Active full wave rectifier
