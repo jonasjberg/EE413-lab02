@@ -447,6 +447,21 @@ for the high impedance 10:1 probe setting.
 \end{figure}
 
 The basic topology for a first order active low pass filter is shown in Figure~\ref{fig:lpf-schem}.
+Gain $A_v$, can be expressed as a ratio of the
+feedback impedance to the input impedance. 
+
+\begin{equation}
+    A_v = \frac{Z_f}{Z_i}
+\end{equation}
+
+The circuit transfer function is;
+
+\begin{align} 
+A_v     &= \frac{V_{out}}{V_{in}} = -\frac{Z_f}{Z_i}\\
+        &= \frac{R_2}{R_1} \times \frac{1}{\sqrt{1+\left(\omega R_2 C\right)^2}}\\
+        &= \frac{33k\Omega}{3.3k\Omega} \times \frac{1}{\sqrt{1+\left(\omega \times 33k\Omega \times 2.2nF\right)^2}}
+\end{align}
+
 
 \subsection{Measurements}\label{lpf-measurements}
 % ==============================================================================
