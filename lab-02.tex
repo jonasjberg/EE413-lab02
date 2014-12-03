@@ -86,6 +86,9 @@ The circuit was build on a solderless breadboard, using through-hole parts.
 A classic 741 op amp was used with a +/-15V power supply.
 No decoupling caps was used and signal lines were not properly terminated.
 
+For measurements the following instruments was used; HP34401A bench multimeter,
+HP33120A signal generator and Agilent E3631A lab power supply.
+
 % ==============================================================================
 % SECTION: Inverting DC Amplifier
 % ==============================================================================
@@ -246,7 +249,7 @@ In both cases, the signal phase is inverted $180^\circ$.
 
 \subsection{Measurements}\label{invAC-measurements-1}
 % ==============================================================================
-TODO
+
 
 \subsection{Oscilloscope shots}\label{invAC-oscilloscope-shots}
 % ==============================================================================
@@ -359,7 +362,7 @@ figure~\ref{fig:noninvACamp}.
 
 \subsection{Measurements}\label{measurements-3}
 % ==============================================================================
-TODO
+
 
 
 \subsection{Oscilloscope shots}\label{noninvAC-oscilloscope-shots}
@@ -484,7 +487,23 @@ The measured frequency response is shown as a bode plot in Figure~\ref{fig:lpf-m
 
 \subsection{Oscilloscope shots}\label{lpf-oscilloscope-shots}
 % ==============================================================================
-TODO
+Oscilloscope photos in figure~\ref{fig:lpf-5k} show the low pass filter input and
+output with a 5kHz input signal.
+Figure~\ref{fig:lpf-10k} shows the low pass filter input and output with a 10kHz input signal. Channel two volts/div is set to compensate for the high impedance 10:1 probe setting. 
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/lpf-5k.jpg}
+    \caption{Low pass filter - 5kHz input signal}
+    \label{fig:lpf-5k}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/lpf-10k.jpg}
+    \caption{Low pass filter - 10kHz input signal}
+    \label{fig:lpf-10k}
+\end{figure}
 
 
 % ==============================================================================
@@ -507,11 +526,64 @@ is shown in Figure~\ref{fig:clipper-schem}.
 
 \subsection{Measurements}\label{clipper-measurements}
 % ==============================================================================
-TODO
+Circuit functionality was tested by increasing the signal amplitude until
+limiting occured.
 
 \subsection{Oscilloscope shots}\label{clipper-oscilloscope-shots}
 % ==============================================================================
-TODO
+Oscilloscope photos in figure~\ref{fig:clip_xy_1} to figure~\ref{fig:clip_xy_7}
+shows the transfer function of the zener clipper as an X/Y-graph.
+The curvature of the graph is the zener diodes gradually turning on as the
+input signal voltage rises to their conducting voltage.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/clip_xy_1.jpg}
+    \caption{Zener diode clipper photo 1}
+    \label{fig:clip_xy_1}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/clip_xy_2.jpg}
+    \caption{Zener diode clipper photo 2}
+    \label{fig:clip_xy_2}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/clip_xy_3.jpg}
+    \caption{Zener diode clipper photo 3}
+    \label{fig:clip_xy_3}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/clip_xy_4.jpg}
+    \caption{Zener diode clipper photo 4}
+    \label{fig:clip_xy_4}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/clip_xy_5.jpg}
+    \caption{Zener diode clipper photo 5}
+    \label{fig:clip_xy_5}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/clip_xy_6.jpg}
+    \caption{Zener diode clipper photo 6}
+    \label{fig:clip_xy_6}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.75\textwidth]{img/clip_xy_7.jpg}
+    \caption{Zener diode clipper photo 7}
+    \label{fig:clip_xy_7}
+\end{figure}
 
 
 % ==============================================================================
@@ -519,7 +591,10 @@ TODO
 % ==============================================================================
 \section{Results}\label{setup}
 % ==============================================================================
-TODO
+The measurement errors and differences between the theoretical calculations using
+ideal components is to be expected. With 5% tolerance resistors, low-spec op amp
+and a crude prototyping setup, parasitics play a major role in the behavior of the
+circuit. 
 
 \newpage
 

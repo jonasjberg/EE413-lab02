@@ -9,22 +9,22 @@
 \contentsline {section}{\numberline {4}Non-inverting DC Amplifier}{6}
 \contentsline {subsection}{\numberline {4.1}Theory}{6}
 \contentsline {subsection}{\numberline {4.2}Measurements}{8}
-\contentsline {section}{\numberline {5}Non-inverting AC Amplifier}{8}
-\contentsline {subsection}{\numberline {5.1}Theory}{8}
-\contentsline {subsection}{\numberline {5.2}Measurements}{8}
-\contentsline {subsection}{\numberline {5.3}Oscilloscope shots}{8}
-\contentsline {section}{\numberline {6}Active full wave rectifier}{10}
-\contentsline {subsection}{\numberline {6.1}Theory}{10}
-\contentsline {subsection}{\numberline {6.2}Oscilloscope shots}{10}
-\contentsline {section}{\numberline {7}Low pass filter}{10}
-\contentsline {subsection}{\numberline {7.1}Theory}{10}
-\contentsline {subsection}{\numberline {7.2}Measurements}{13}
-\contentsline {subsection}{\numberline {7.3}Oscilloscope shots}{13}
-\contentsline {section}{\numberline {8}Zener diode clipper}{15}
-\contentsline {subsection}{\numberline {8.1}Theory}{15}
-\contentsline {subsection}{\numberline {8.2}Measurements}{15}
-\contentsline {subsection}{\numberline {8.3}Oscilloscope shots}{15}
-\contentsline {section}{\numberline {9}Results}{15}
-\contentsline {section}{\numberline {10}References}{16}
-\contentsline {subsection}{\numberline {10.1}Literature}{16}
-\contentsline {subsection}{\numberline {10.2}Sources}{16}
+\contentsline {section}{\numberline {5}Non-inverting AC Amplifier}{9}
+\contentsline {subsection}{\numberline {5.1}Theory}{9}
+\contentsline {subsection}{\numberline {5.2}Measurements}{9}
+\contentsline {subsection}{\numberline {5.3}Oscilloscope shots}{9}
+\contentsline {section}{\numberline {6}Active full wave rectifier}{9}
+\contentsline {subsection}{\numberline {6.1}Theory}{9}
+\contentsline {subsection}{\numberline {6.2}Oscilloscope shots}{11}
+\contentsline {section}{\numberline {7}Low pass filter}{11}
+\contentsline {subsection}{\numberline {7.1}Theory}{11}
+\contentsline {subsection}{\numberline {7.2}Measurements}{14}
+\contentsline {subsection}{\numberline {7.3}Oscilloscope shots}{14}
+\contentsline {section}{\numberline {8}Zener diode clipper}{17}
+\contentsline {subsection}{\numberline {8.1}Theory}{17}
+\contentsline {subsection}{\numberline {8.2}Measurements}{17}
+\contentsline {subsection}{\numberline {8.3}Oscilloscope shots}{17}
+\contentsline {section}{\numberline {9}Results}{17}
+\contentsline {section}{\numberline {10}References}{22}
+\contentsline {subsection}{\numberline {10.1}Literature}{22}
+\contentsline {subsection}{\numberline {10.2}Sources}{22}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  3 DEC 2014 23:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.12.1)  3 DEC 2014 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -969,14 +969,14 @@ Package microtype Info: Loading generic settings for font family
 <img/invDCamp.png, id=15, 460.72125pt x 405.515pt>
 File: img/invDCamp.png Graphic file (type png)
  <use img/invDCamp.png>
-Package pdftex.def Info: img/invDCamp.png used on input line 100.
+Package pdftex.def Info: img/invDCamp.png used on input line 103.
 (pdftex.def)             Requested size: 230.36006pt x 202.75699pt.
 
 [3 <./img/invDCamp.png>] [4]
 <img/invACamp.png, id=27, 478.78876pt x 407.5225pt>
 File: img/invACamp.png Graphic file (type png)
  <use img/invACamp.png>
-Package pdftex.def Info: img/invACamp.png used on input line 212.
+Package pdftex.def Info: img/invACamp.png used on input line 215.
 (pdftex.def)             Requested size: 239.39378pt x 203.76074pt.
 
 [5 <./img/invACamp.png>]
@@ -984,97 +984,91 @@ Package pdftex.def Info: img/invACamp.png used on input line 212.
 File: img/invACamp-x10.jpg Graphic file (type jpg)
 
 <use img/invACamp-x10.jpg>
-Package pdftex.def Info: img/invACamp-x10.jpg used on input line 260.
+Package pdftex.def Info: img/invACamp-x10.jpg used on input line 263.
 (pdftex.def)             Requested size: 270.0pt x 214.39412pt.
 
 <img/invACamp-x1.jpg, id=32, 1106.1325pt x 876.27374pt>
 File: img/invACamp-x1.jpg Graphic file (type jpg)
 
 <use img/invACamp-x1.jpg>
-Package pdftex.def Info: img/invACamp-x1.jpg used on input line 267.
+Package pdftex.def Info: img/invACamp-x1.jpg used on input line 270.
 (pdftex.def)             Requested size: 270.0pt x 213.89337pt.
 
 <img/noninvDCamp.png, id=33, 426.59375pt x 432.61626pt>
 File: img/noninvDCamp.png Graphic file (type png)
 
 <use img/noninvDCamp.png>
-Package pdftex.def Info: img/noninvDCamp.png used on input line 284.
+Package pdftex.def Info: img/noninvDCamp.png used on input line 287.
 (pdftex.def)             Requested size: 213.29634pt x 216.3076pt.
- [6] [7 <./img/invACamp-x10.jpg> <./img/invACamp-x1.jpg>] <img/noninvACamp.png,
- id=41, 413.545pt x 424.58624pt>
+ [6] [7 <./img/invACamp-x10.jpg> <./img/invACamp-x1.jpg>] [8 <./img/noninvDCamp
+.png>]
+<img/noninvACamp.png, id=44, 413.545pt x 424.58624pt>
 File: img/noninvACamp.png Graphic file (type png)
 
 <use img/noninvACamp.png>
-Package pdftex.def Info: img/noninvACamp.png used on input line 354.
+Package pdftex.def Info: img/noninvACamp.png used on input line 357.
 (pdftex.def)             Requested size: 206.77199pt x 212.2926pt.
 
-<img/noninvACamp-x1.jpg, id=42, 2144.01pt x 1708.3825pt>
+<img/noninvACamp-x1.jpg, id=45, 2144.01pt x 1708.3825pt>
 File: img/noninvACamp-x1.jpg Graphic file (type jpg)
 
 <use img/noninvACamp-x1.jpg>
-Package pdftex.def Info: img/noninvACamp-x1.jpg used on input line 374.
+Package pdftex.def Info: img/noninvACamp-x1.jpg used on input line 377.
 (pdftex.def)             Requested size: 270.0pt x 215.13742pt.
 
-<img/noninvACamp-x10.jpg, id=43, 2333.71875pt x 1851.91875pt>
+<img/noninvACamp-x10.jpg, id=46, 2333.71875pt x 1851.91875pt>
 File: img/noninvACamp-x10.jpg Graphic file (type jpg)
 
 <use img/noninvACamp-x10.jpg>
-Package pdftex.def Info: img/noninvACamp-x10.jpg used on input line 381.
+Package pdftex.def Info: img/noninvACamp-x10.jpg used on input line 384.
 (pdftex.def)             Requested size: 270.0pt x 214.2519pt.
-
-Overfull \vbox (184.76654pt too high) has occurred while \output is active []
-
-
-[8 <./img/noninvDCamp.png>] [9 <./img/noninvACamp.png> <./img/noninvACamp-x1.jp
-g>] <img/fwr.png, id=50, 521.95pt x 720.6925pt>
+ [9] [10 <./img/noninvACamp.png> <./img/noninvACamp-x1.jpg>] <img/fwr.png, id=5
+3, 521.95pt x 720.6925pt>
 File: img/fwr.png Graphic file (type png)
  <use img/fwr.png>
-Package pdftex.def Info: img/fwr.png used on input line 406.
+Package pdftex.def Info: img/fwr.png used on input line 409.
 (pdftex.def)             Requested size: 260.97435pt x 360.34537pt.
 
-<img/fwr1.jpg, id=51, 1300.86pt x 971.63pt>
+<img/fwr1.jpg, id=54, 1300.86pt x 971.63pt>
 File: img/fwr1.jpg Graphic file (type jpg)
  <use img/fwr1.jpg>
-Package pdftex.def Info: img/fwr1.jpg used on input line 421.
+Package pdftex.def Info: img/fwr1.jpg used on input line 424.
 (pdftex.def)             Requested size: 270.0pt x 201.66136pt.
 
-<img/fwr2.jpg, id=52, 1300.86pt x 971.63pt>
+<img/fwr2.jpg, id=55, 1300.86pt x 971.63pt>
 File: img/fwr2.jpg Graphic file (type jpg)
  <use img/fwr2.jpg>
-Package pdftex.def Info: img/fwr2.jpg used on input line 428.
+Package pdftex.def Info: img/fwr2.jpg used on input line 431.
 (pdftex.def)             Requested size: 270.0pt x 201.66136pt.
 
-<img/lowpassfilter.png, id=53, 421.575pt x 472.76625pt>
+<img/lowpassfilter.png, id=56, 421.575pt x 472.76625pt>
 File: img/lowpassfilter.png Graphic file (type png)
 
 <use img/lowpassfilter.png>
-Package pdftex.def Info: img/lowpassfilter.png used on input line 444.
+Package pdftex.def Info: img/lowpassfilter.png used on input line 447.
 (pdftex.def)             Requested size: 210.78697pt x 236.38254pt.
- [10 <./img/noninvACamp-x10.jpg>] [11 <./img/fwr.png>] [12 <./img/fwr1.jpg> <./
+ [11 <./img/noninvACamp-x10.jpg>] [12 <./img/fwr.png>] [13 <./img/fwr1.jpg> <./
 img/fwr2.jpg>]
 Package epstopdf Info: Source file: <img/lpf-magnitude.eps>
 (epstopdf)                    date: 2014-12-03 23:26:22
 (epstopdf)                    size: 234051 bytes
 (epstopdf)             Output file: <img/lpf-magnitude-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-12-03 23:27:15
+(epstopdf)                    size: 19234 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/lpf-magnitude-eps-conv
 erted-to.pdf img/lpf-magnitude.eps>
-(epstopdf)             \includegraphics on input line 472.
-runsystem(repstopdf --outfile=img/lpf-magnitude-eps-converted-to.pdf img/lpf-ma
-gnitude.eps)...executed safely (allowed).
+(epstopdf)             \includegraphics on input line 475.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <img/lpf-magnitude-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-03 23:27:15
-(epstopdf)                    size: 19234 bytes.
-
-<img/lpf-magnitude-eps-converted-to.pdf, id=63, 401.5pt x 251.94125pt>
+<img/lpf-magnitude-eps-converted-to.pdf, id=67, 401.5pt x 251.94125pt>
 File: img/lpf-magnitude-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/lpf-magnitude-eps-converted-to.pdf>
 Package pdftex.def Info: img/lpf-magnitude-eps-converted-to.pdf used on input l
-ine 472.
+ine 475.
 (pdftex.def)             Requested size: 401.49901pt x 251.94063pt.
 
-Overfull \hbox (41.49901pt too wide) in paragraph at lines 472--473
+Overfull \hbox (41.49901pt too wide) in paragraph at lines 475--476
  [][] 
  []
 
@@ -1082,46 +1076,100 @@ Package epstopdf Info: Source file: <img/lpf-phase.eps>
 (epstopdf)                    date: 2014-12-03 23:26:24
 (epstopdf)                    size: 160502 bytes
 (epstopdf)             Output file: <img/lpf-phase-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-12-03 23:27:16
+(epstopdf)                    size: 18722 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/lpf-phase-eps-converte
 d-to.pdf img/lpf-phase.eps>
-(epstopdf)             \includegraphics on input line 479.
-runsystem(repstopdf --outfile=img/lpf-phase-eps-converted-to.pdf img/lpf-phase.
-eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <img/lpf-phase-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-12-03 23:27:16
-(epstopdf)                    size: 18722 bytes.
-<img/lpf-phase-eps-converted-to.pdf, id=64, 405.515pt x 255.95625pt>
+(epstopdf)             \includegraphics on input line 482.
+Package epstopdf Info: Output file is already uptodate.
+<img/lpf-phase-eps-converted-to.pdf, id=68, 405.515pt x 255.95625pt>
 File: img/lpf-phase-eps-converted-to.pdf Graphic file (type pdf)
 
 <use img/lpf-phase-eps-converted-to.pdf>
 Package pdftex.def Info: img/lpf-phase-eps-converted-to.pdf used on input line 
-479.
+482.
 (pdftex.def)             Requested size: 405.51399pt x 255.95561pt.
 
-Overfull \hbox (45.51399pt too wide) in paragraph at lines 479--480
+Overfull \hbox (45.51399pt too wide) in paragraph at lines 482--483
  [][] 
  []
 
-<img/zenerclipper.png, id=65, 421.575pt x 488.82625pt>
+<img/lpf-5k.jpg, id=69, 1096.095pt x 856.19875pt>
+File: img/lpf-5k.jpg Graphic file (type jpg)
+ <use img/lpf-5k.jpg>
+Package pdftex.def Info: img/lpf-5k.jpg used on input line 496.
+(pdftex.def)             Requested size: 270.0pt x 210.9006pt.
+
+<img/lpf-10k.jpg, id=70, 1150.2975pt x 889.3225pt>
+File: img/lpf-10k.jpg Graphic file (type jpg)
+ <use img/lpf-10k.jpg>
+Package pdftex.def Info: img/lpf-10k.jpg used on input line 503.
+(pdftex.def)             Requested size: 270.0pt x 208.73299pt.
+
+<img/zenerclipper.png, id=71, 421.575pt x 488.82625pt>
 File: img/zenerclipper.png Graphic file (type png)
 
 <use img/zenerclipper.png>
-Package pdftex.def Info: img/zenerclipper.png used on input line 500.
+Package pdftex.def Info: img/zenerclipper.png used on input line 519.
 (pdftex.def)             Requested size: 210.78697pt x 244.41252pt.
- [13 <./img/lowpassfilter.png>] [14 <./img/lpf-magnitude-eps-converted-to.pdf> 
-<./img/lpf-phase-eps-converted-to.pdf>] [15 <./img/zenerclipper.png>] [16] (bui
-ld/lab-02.aux)
+ [14 <./img/lowpassfilter.png>] [15 <./img/lpf-magnitude-eps-converted-to.pdf> 
+<./img/lpf-phase-eps-converted-to.pdf>] [16 <./img/lpf-5k.jpg> <./img/lpf-10k.j
+pg>]
+<img/clip_xy_1.jpg, id=112, 1112.155pt x 870.25125pt>
+File: img/clip_xy_1.jpg Graphic file (type jpg)
+ <use img/clip_xy_1.jpg>
+Package pdftex.def Info: img/clip_xy_1.jpg used on input line 541.
+(pdftex.def)             Requested size: 270.0pt x 211.26805pt.
+
+<img/clip_xy_2.jpg, id=113, 1123.19624pt x 879.285pt>
+File: img/clip_xy_2.jpg Graphic file (type jpg)
+ <use img/clip_xy_2.jpg>
+Package pdftex.def Info: img/clip_xy_2.jpg used on input line 548.
+(pdftex.def)             Requested size: 270.0pt x 211.36813pt.
+
+<img/clip_xy_3.jpg, id=114, 1161.33875pt x 923.45pt>
+File: img/clip_xy_3.jpg Graphic file (type jpg)
+ <use img/clip_xy_3.jpg>
+Package pdftex.def Info: img/clip_xy_3.jpg used on input line 555.
+(pdftex.def)             Requested size: 270.0pt x 214.6858pt.
+
+<img/clip_xy_4.jpg, id=115, 1202.4925pt x 956.57375pt>
+File: img/clip_xy_4.jpg Graphic file (type jpg)
+ <use img/clip_xy_4.jpg>
+Package pdftex.def Info: img/clip_xy_4.jpg used on input line 562.
+(pdftex.def)             Requested size: 270.0pt x 214.78192pt.
+
+<img/clip_xy_5.jpg, id=116, 1140.26pt x 951.555pt>
+File: img/clip_xy_5.jpg Graphic file (type jpg)
+ <use img/clip_xy_5.jpg>
+Package pdftex.def Info: img/clip_xy_5.jpg used on input line 569.
+(pdftex.def)             Requested size: 270.0pt x 225.31424pt.
+
+<img/clip_xy_6.jpg, id=117, 1224.575pt x 971.63pt>
+File: img/clip_xy_6.jpg Graphic file (type jpg)
+ <use img/clip_xy_6.jpg>
+Package pdftex.def Info: img/clip_xy_6.jpg used on input line 576.
+(pdftex.def)             Requested size: 270.0pt x 214.21886pt.
+
+<img/clip_xy_7.jpg, id=118, 1176.395pt x 936.49875pt>
+File: img/clip_xy_7.jpg Graphic file (type jpg)
+ <use img/clip_xy_7.jpg>
+Package pdftex.def Info: img/clip_xy_7.jpg used on input line 583.
+(pdftex.def)             Requested size: 270.0pt x 214.9329pt.
+
+[17 <./img/zenerclipper.png>] [18 <./img/clip_xy_1.jpg> <./img/clip_xy_2.jpg>]
+[19 <./img/clip_xy_3.jpg> <./img/clip_xy_4.jpg>] [20 <./img/clip_xy_5.jpg> <./i
+mg/clip_xy_6.jpg>] [21 <./img/clip_xy_7.jpg>] [22] (build/lab-02.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12494 strings out of 494985
- 255391 string characters out of 6180356
- 300163 words of memory out of 5000000
- 15463 multiletter control sequences out of 15000+600000
- 14672 words of font info for 73 fonts, out of 8000000 for 9000
+ 12554 strings out of 494985
+ 256444 string characters out of 6180356
+ 301253 words of memory out of 5000000
+ 15508 multiletter control sequences out of 15000+600000
+ 14825 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  39i,10n,35p,10418b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
@@ -1136,10 +1184,10 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pf
 b>
-Output written on build/lab-02.pdf (16 pages, 4761870 bytes).
+Output written on build/lab-02.pdf (22 pages, 6734452 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 178 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 17484 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 17529 words of extra memory for PDF output out of 20736 (max. 10000000)
 
